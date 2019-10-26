@@ -1,0 +1,162 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+.instructivo{
+  margin: 2em;
+  margin-top: 30%;
+  font-size: 20px;
+}
+
+.instructivo li{
+  margin-bottom: 12px;
+}
+
+.instructivo ol{
+  margin-top: 15px;
+}
+
+.welcome{
+  margin-top: 50%
+}
+.welcome p{
+  font-size: 18px;
+}
+.sincronizar{
+  margin-top: 1em;
+  background-color: #e904d6;
+  font-size: 20px;
+  color:  white;
+}
+ 
+body {
+	background:rgb(230, 238, 251);
+}
+
+.title_central{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.sub-title{
+	text-align: center;
+}
+
+hr {
+	max-width: 15rem;
+  padding: 0;
+  border: none;
+  border-top: solid 0.20rem;
+	margin-bottom: 2.5rem;
+	text-align: center;
+	display: block;
+}
+
+/* -------- */
+
+.btn {
+  font-weight: 700;
+}
+
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+.btn-primary {
+  background-color: #FB8EA1;
+  border-color: #FB8EA1;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #FB8EA1 !important;
+  border-color: #FB8EA1 !important;
+  color: white;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+::-moz-selection {
+  background: #FB8EA1;
+  text-shadow: none;
+}
+
+::selection {
+  background: #FB8EA1;
+  text-shadow: none;
+}
+
+img::selection {
+  background: transparent;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+#mainNav {
+  background-color: rgb(10, 183, 251);
+}
+
+#mainNav .navbar-toggler {
+  font-size: 16px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #e904d6;
+}
+
+#mainNav .navbar-brand {
+  color: white;
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #4C3B0A;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #FB8EA1;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
